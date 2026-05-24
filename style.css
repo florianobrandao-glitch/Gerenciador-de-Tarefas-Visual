@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que os tamanhos fiquem certinhos */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #c5c5c5;
+    border-radius: 9px;
+    box-shadow: 0 10px 10px rgba(40, 40, 40, 0.1);
+    padding: 20px;
+    gap: 20px;
+    flex-direction: column;
+    display: flex;
+}
+
+.cabecalho {
+    text-align: center;
+    p{
+        font-size: 18px;
+        color: #262525;
+    }
+    margin-bottom: 20px;
+}
+
+.caixa-formulario {
+    background-color: #ffffff;
+    border-radius: 9px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(40, 40, 40, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: justify;
+}
+
+.campo{
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+    label {
+        font-size: 16px;
+        color: #333333;
+    }
+
+    input, select, textarea {
+        padding: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+}
+
+.btn-salvar {
+    background-color: #2174e9;
+    color: white;
+    gap: 10px;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: flex-end;
+    margin-top: 10px;
+}
+.btn-salvar:hover {
+    background-color: #1a5bb8;
+}
+
+.card-tarefa {
+    background-color: #ffffff;
+    border-radius: 9px;
+    padding: 15px;
+    box-shadow: 0 5px 10px rgba(40, 40, 40, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #e0e0e0;
+    margin-top: 10px;
+}
