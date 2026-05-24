@@ -4,7 +4,7 @@ Um sistema web moderno e minimalista para organização de tarefas, trabalhos e 
 
 Este repositório contém a interface visual (**Front-End**) do projeto. O desenvolvimento foi focado na criação de uma estrutura limpa em HTML e na aplicação avançada de **Flexbox** para o alinhamento e responsividade dos elementos.
 
-> 💡 **Nota do Projeto:** O desenvolvimento do Back-End deste gerenciador já foi concluído e está disponível em outro repositório no meu GitHub. Atualmente, as duas partes operam de forma independente, pois a integração via API (conexão entre Front e Back) será realizada nos próximos passos dos meus estudos!
+> **Nota do Projeto:** O desenvolvimento do Back-End deste gerenciador já foi concluído e está disponível em outro repositório no meu GitHub. Atualmente, as duas partes operam de forma independente, pois a integração via API (conexão entre Front e Back) será realizada nos próximos passos dos meus estudos!
 
 ---
 
@@ -16,7 +16,7 @@ Este repositório contém a interface visual (**Front-End**) do projeto. O desen
 
 ---
 
-## 🎨 Funcionalidades do Layout
+## Funcionalidades do Layout
 
 * **Painel de Cadastro:** Área exclusiva e destacada para inserção do título da tarefa, disciplina e data de entrega.
 * **Cards de Tarefas Dinâmicos:** Exibição lado a lado das informações da tarefa e do botão de conclusão, garantindo equilíbrio visual.
@@ -25,7 +25,7 @@ Este repositório contém a interface visual (**Front-End**) do projeto. O desen
 
 ---
 
-## 🛠️ Como Executar o Front-End Localmente
+## Como Executar o Front-End Localmente
 
 1. Faça o clone deste repositório ou baixe os arquivos.
 2. Certifique-se de que o arquivo `index.html` e o arquivo `style.css` estão na mesma pasta (ou com o caminho devidamente referenciado).
@@ -33,7 +33,7 @@ Este repositório contém a interface visual (**Front-End**) do projeto. O desen
 
 ---
 
-## 🧠 Aprendizados Adquiridos neste Módulo
+## Aprendizados Adquiridos neste Módulo
 
 * Resete de estilos padrões de navegadores com `box-sizing: border-box`.
 * Controle de eixos do Flexbox (`flex-direction: row` e `column`).
