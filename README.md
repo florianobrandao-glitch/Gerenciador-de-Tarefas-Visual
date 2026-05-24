@@ -1,4 +1,4 @@
-# Parte Visual do Gerenciador de Tarefas Escolares
+# Parte Visual do Gerenciador de Tarefas Acadêmicas
 
 Um sistema web moderno e minimalista para organização de tarefas, trabalhos e prazos de disciplinas escolares ou acadêmicas.
 
