@@ -80,7 +80,7 @@ body {
 
 .card-tarefa {
     background-color: #ffffff;
-    border-radius: 9px;
+    border-radius: 6px;
     padding: 15px;
     box-shadow: 0 5px 10px rgba(40, 40, 40, 0.1);
     display: flex;
@@ -88,4 +88,5 @@ body {
     gap: 10px;
     border: 1px solid #e0e0e0;
     margin-top: 10px;
+    justify-content: space-between;
 }
