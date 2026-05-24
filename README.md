@@ -39,4 +39,9 @@ Este repositório contém a interface visual (**Front-End**) do projeto. O desen
 * Controle de eixos do Flexbox (`flex-direction: row` e `column`).
 * Alinhamento bidimensional com `justify-content` e `align-items`.
 * Uso de propriedades de isolamento como `display: inline-block` em elementos de texto.
+
+---
+
+## Demonstração do Projeto
+
 ![Demonstração do Projeto](image.png)
